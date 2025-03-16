@@ -109,7 +109,7 @@ The pipeline ensures fresh, accurate data for analysis.
 #### 1️⃣ Clone the Repository
 
 ```
-git clone https://github.com/your-username/etl-hotel-dwh.git
+git clone https://github.com/your-username/ETL-DWH-Hospitality.git
 cd etl_project
 ```
 
