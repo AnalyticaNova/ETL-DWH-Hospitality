@@ -1,0 +1,52 @@
+# Ignore environment files
+hotel_dwh/.env
+airflow/.env
+.env
+logs
+
+# Ignore log files
+logs/
+airflow/logs/
+hotel_dwh/logs/
+
+# Ignore database and airflow-generated files
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/airflow-scheduler.err
+airflow/airflow-scheduler.log
+airflow/airflow-scheduler.out
+airflow/airflow-scheduler.pid
+airflow/airflow-webserver-monitor.pid
+airflow/airflow-webserver.err
+airflow/airflow-webserver.log
+airflow/airflow-webserver.out
+airflow/airflow-webserver.pid
+airflow/webserver_config.py
+
+# Ignore dbt-generated directories
+hotel_dwh/target/
+hotel_dwh/dbt_packages/
+
+# Ignore dbt project configuration
+hotel_dwh/profiles.yml
+
+# Ignore temporary & system files
+airflow/dags/__pycache__/
+hotel_dwh/tests/
+hotel_dwh/README.md
+hotel_dwh/macros/
+hotel_dwh/analyses/
+hotel_dwh/seeds/
+hotel_dwh/snapshots/
+hotel_dwh/.DS_Store
+airflow/.DS_Store
+
+__pycache__/
+.DS_Store
+
+
+# Ignore compiled and generated files
+__pycache__/
+*.log
+*.db
+*.pid
